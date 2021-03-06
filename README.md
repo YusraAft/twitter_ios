@@ -1,6 +1,6 @@
-# Project 3 - *Twitter*
+# Project 3 - *Twitter_ios*
 
-**Name of your app** is a basic twitter app to read your tweets.
+**Twitter_ios** is a basic twitter app to read your tweets.
 
 Time spent: **7** hours spent in total
 
