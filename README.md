@@ -20,10 +20,13 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 
 This is the launch screen
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/62486192/110195527-64701200-7e03-11eb-92fa-7080ba0593d2.gif)
 
 This shows overall app functioning
+
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/62486192/110195530-69cd5c80-7e03-11eb-9be5-cc45286fc0b5.gif)
 
 This shows that user stays logged in
+
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/62486192/110195528-6639d580-7e03-11eb-8687-3c0055d156ec.gif)
