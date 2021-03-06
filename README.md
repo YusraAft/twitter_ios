@@ -25,7 +25,7 @@ This is the launch screen
 
 This shows overall app functioning
 
-![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/62486192/110195530-69cd5c80-7e03-11eb-9be5-cc45286fc0b5.gif)
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/62486192/110195635-23c4c880-7e04-11eb-8664-bb17825a8fd4.gif)
 
 This shows that user stays logged in
 
