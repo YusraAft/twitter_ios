@@ -15,8 +15,14 @@ class HomeTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       // refresher.addTarget(self, action: #selector(loadTweets), for: .valuechanged)
         loadTweets()
       
+    }//viewdidload only runs once
+    
+    override func viewDidAppear(_ animated: Bool) { //this function runs every time
+        super.viewDidAppear(animated)
+        self.loadTweets()
     }
 
     //to pull tweets or call the API -> we call it when the viewloads
