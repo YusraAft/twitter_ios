@@ -73,7 +73,9 @@ class HomeTableViewController: UITableViewController {
         }
         
         cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)//for using as! we know for sure that it is a boolean
-        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int //this will set the variable we TweetcellTableview
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int //this will set the variable Tweetclltableview
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
+    
         return cell
     }
     // MARK: - Table view data source
