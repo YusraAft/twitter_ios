@@ -23,14 +23,17 @@ Here's a walkthrough of implemented user stories:
 
 Post a tweet:
 
+
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/62486192/111019759-d5c13f00-8386-11eb-8b49-67e5ee05024e.gif)
 
 
 As you can see the tweet worked:
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/62486192/111019717-a7436400-8386-11eb-965d-d97f47e9527b.gif)
+
+![Screen Shot 2021-03-12 at 11 02 13 PM](https://user-images.githubusercontent.com/62486192/111019817-26389c80-8387-11eb-8a59-af013e1d2521.png)
 
 Favorite and retweet
+
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/62486192/111019525-5e3ee000-8385-11eb-8d28-f2a0dd7abb6b.gif)
 
