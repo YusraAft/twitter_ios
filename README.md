@@ -2,6 +2,39 @@
 
 **Twitter_ios** is a basic twitter app to read your tweets.
 
+# Twitter - Part II
+
+This is a basic twitter app to view, compose, favorite, and retweet tweets.
+
+Time spent: **5** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User can compose a tweet. (4pts)
+- [x] User can favorite a tweet. (4pts)
+- [x] User can retweet a tweet. (2pts)
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+Post a tweet:
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/62486192/111019759-d5c13f00-8386-11eb-8b49-67e5ee05024e.gif)
+
+
+As you can see the tweet worked:
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/62486192/111019717-a7436400-8386-11eb-965d-d97f47e9527b.gif)
+
+Favorite and retweet
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/62486192/111019525-5e3ee000-8385-11eb-8d28-f2a0dd7abb6b.gif)
+
+
 Time spent: **7** hours spent in total
 
 ## User Stories
