@@ -84,16 +84,22 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpz-Td-hLR" userLabel="favButton">
-                                            <rect key="frame" x="354" y="109" width="30" height="30"/>
+                                            <rect key="frame" x="354" y="106" width="30" height="30"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="30" id="hwD-AP-hkj"/>
                                                 <constraint firstAttribute="height" constant="30" id="vGE-N8-nLm"/>
                                             </constraints>
                                             <state key="normal" image="favor-icon-1"/>
+                                            <connections>
+                                                <action selector="favoriteTweet:" destination="xCB-68-kaW" eventType="touchUpInside" id="4cs-6C-3oh"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeE-AN-ezc">
                                             <rect key="frame" x="314" y="109" width="30" height="30"/>
                                             <state key="normal" image="retweet-icon"/>
+                                            <connections>
+                                                <action selector="retweet:" destination="xCB-68-kaW" eventType="touchUpInside" id="OGr-oh-nJj"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -110,14 +116,16 @@
                                         <constraint firstItem="DUI-Si-wkg" firstAttribute="bottom" secondItem="cDa-xb-cDf" secondAttribute="bottomMargin" id="dbc-pM-XoU"/>
                                         <constraint firstItem="dpz-Td-hLR" firstAttribute="bottom" secondItem="cDa-xb-cDf" secondAttribute="bottomMargin" constant="10" id="fzW-EW-D8l"/>
                                         <constraint firstItem="DeE-AN-ezc" firstAttribute="bottom" secondItem="cDa-xb-cDf" secondAttribute="bottomMargin" constant="10" id="itu-Pl-FkF"/>
-                                        <constraint firstItem="dpz-Td-hLR" firstAttribute="top" secondItem="DUI-Si-wkg" secondAttribute="bottom" constant="-30" id="mRM-iQ-d7w"/>
+                                        <constraint firstItem="dpz-Td-hLR" firstAttribute="top" secondItem="DUI-Si-wkg" secondAttribute="bottom" constant="-33" id="mRM-iQ-d7w"/>
                                         <constraint firstItem="DUI-Si-wkg" firstAttribute="leading" secondItem="PxC-cy-iMF" secondAttribute="trailing" constant="8" id="oFO-bc-sXK"/>
                                         <constraint firstItem="DeE-AN-ezc" firstAttribute="bottom" secondItem="cDa-xb-cDf" secondAttribute="bottomMargin" id="u1I-mY-uG0"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="dpz-Td-hLR" secondAttribute="trailing" constant="10" id="yPW-YT-hqu"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="favButton" destination="dpz-Td-hLR" id="W3D-Jj-Zgl"/>
                                     <outlet property="profileImageView" destination="PxC-cy-iMF" id="EdY-Ni-grg"/>
+                                    <outlet property="retweetButton" destination="DeE-AN-ezc" id="8iY-7I-Yvd"/>
                                     <outlet property="tweetContent" destination="DUI-Si-wkg" id="qjO-OB-Uy0"/>
                                     <outlet property="userNameLabel" destination="vVn-Ao-MzE" id="2KL-9I-Vhc"/>
                                 </connections>

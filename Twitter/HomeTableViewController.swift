@@ -17,6 +17,9 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
        // refresher.addTarget(self, action: #selector(loadTweets), for: .valuechanged)
         loadTweets()
+        self.tableView.rowHeight = UITableView.automaticDimension //automatically calculated
+        self.tableView.estimatedRowHeight = 150 //estimated height
+        
       
     }//viewdidload only runs once
     
@@ -69,8 +72,8 @@ class HomeTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data: imageData)
         }
         
-        
-        
+        cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)//for using as! we know for sure that it is a boolean
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int //this will set the variable we TweetcellTableview
         return cell
     }
     // MARK: - Table view data source
