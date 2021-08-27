@@ -1,6 +1,6 @@
 
 
-https://user-images.githubusercontent.com/62486192/131164124-db9e0a57-3e10-48a2-a2b8-54b00860f9ca.mp4
+
 
 # Project 3 - *Twitter_ios*
 
